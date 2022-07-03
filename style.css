@@ -24,7 +24,6 @@ body {
     height: 85vh;
     border-radius: 4px;
     box-shadow: 8px 8px 30px rgb(0 0 0 / 30%);
-
 }
 
 .none {
@@ -278,3 +277,204 @@ input {
     border: none;
     background-color: #ea5853;
 }
+
+@media only screen and (max-width: 400px) {
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 5fr;
+        background-color: #FFFFFF;
+        width: 85vw;
+        height: 90vh;
+        border-radius: 4px;
+        box-shadow: 8px 8px 30px rgb(0 0 0 / 30%);
+    }
+
+    .aside {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .main {
+        background-color: #F2F2F2;
+        width: 100%;
+        display: grid;
+        border-radius: 0 4px 0 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6fr 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .task span {
+        padding-left: 15px;
+        font-size: 14px;
+    }
+
+    .task button {
+       margin-left: 10px;
+       margin-right: 10px;
+    }
+
+    .links {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        border: none;
+        background-color: #1B2430;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .time {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li {
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 5fr;
+        background-color: #FFFFFF;
+        width: 85vw;
+        height: 90vh;
+        border-radius: 4px;
+        box-shadow: 8px 8px 30px rgb(0 0 0 / 30%);
+    }
+
+    .aside {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .main {
+        background-color: #F2F2F2;
+        width: 100%;
+        display: grid;
+        border-radius: 0 4px 0 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6fr 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .task span {
+        padding-left: 15px;
+        font-size: 14px;
+    }
+
+    .task button {
+       margin-left: 10px;
+       margin-right: 10px;
+    }
+
+    .links {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        border: none;
+        background-color: #1B2430;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .time {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li {
+        margin-right: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 580px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 5fr;
+        background-color: #FFFFFF;
+        width: 85vw;
+        height: 90vh;
+        border-radius: 4px;
+        box-shadow: 8px 8px 30px rgb(0 0 0 / 30%);
+    }
+
+    .aside {
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .main {
+        background-color: #F2F2F2;
+        width: 100%;
+        display: grid;
+        border-radius: 0 4px 0 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6fr 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .task span {
+        padding-left: 15px;
+        font-size: 14px;
+    }
+
+    .task button {
+       margin-left: 10px;
+       margin-right: 10px;
+    }
+
+    .links {
+        display: grid;
+        width: 100%;
+        height: 100%;
+        border: none;
+        background-color: #1B2430;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .time {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    li {
+        margin-right: 15px;
+    }
+}
+
